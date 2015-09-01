@@ -1,209 +1,84 @@
-.cover{
-position:fixed;
+.WS{
+	position:absolute;
+	left:38%;
+	right:35%;
+	bottom:25%;
+	top:25%;
+}
+form{
+	display: block;
+	margin: auto;
+
+}
+a{
+	text-decoration:none;
+}
+
+
+#navbar{
+    list-style-type: none;
+    float:right;
+    position:relative;
 
 
 }
-
-#wrapper{
-    width:1500px;
-	margin:0 auto;
+.square{
 	position:relative;
-	left:150px;
+	top:20px;
+}
 	
 	
+a{
+	display: block;
+    width: 80px;
+    color:black;
+}
+
+.sign{
+	background-color:#3355dd;
 	
+	text-align:center;
+	position:relative;
+	right:30px;
+
+
+	border-radius:5%;
 }
-
-
-#homepage{
-  width:376px;
-  height:218px;
-  float:left;
-  margin-top:-1px;
-  position:relative;
-  z-index:2;
-  
-  
-   
+.sign:hover{
+	opacity:0.8;
 }
-
-#menu{
-  
-  display:inline;
-  }
-  
-  
-#menu :hover{
- opacity: 0.9;
- }
- 
- #menuRUS{
- position: relative;
- left: 345px;
- top:-269px;
- 
- }
- #menuRUS :hover{
- opacity: 0.9;
- }
- #homepage :hover{
- opacity: 0.9;
- }
- 
- #homepageRUS{
- position: relative;
- top: px;
- right: 80px;
- }
- 
- #homepageRUS :hover{
- opacity: 0.9;
- }
- .language{
- display:inline;
-
- left:1600px;
- position:fixed;
- top: 30px;
- 
-
- }
-  .languageRUS{
- display:inline;
-
- left:1660px;
- position:fixed;
- z-index:10;
- 
-
- }
- .change{
- position:fixed;
- left:1592px;
- text-decoration:none;
- color:#3377dd;
- font-size:25px;
- background-color:#99ccff;
- 
- -moz-border-radius: 5px; 
-
--webkit-border-radius: 5px; 
-
--khtml-border-radius: 5px; 
-
-border-radius: 2px;
- 
- }
- .change:hover{
- opacity:0.9;
- }
- .changeRUS{
- position: fixed;
- left:1650px;
- z-index:10;
- }
-
- .guides {
-  
-}
-.news{
-  position: relative;
-  right:11px;
-}
-.maps{
-  position: relative;
-  right:22px;
-}
-
-.players{
-  position: relative;
-  right:32px;
-  
-  }
-.gray{
-
-position:relative;
-top:4000px;
-
-
+.white{
+	color:white;
 }
 
 #footer{
-position:relative;
-top:750px;
-right:-270px;
-font-size:25px;
-background-color: #3377cc;
-margin-left:515px;
-margin-right:1220px;
-opacity:0.7;
--moz-border-radius: 5px; 
-
--webkit-border-radius: 5px; 
-
--khtml-border-radius: 5px; 
-
-border-radius: 5px;
+    list-style-type: none;
+    float:left;
+    position:relative;
+    top:900px;
 }
-
-.footer{
-color:#33ddff;
-text-decoration:none;
+#footer:hover{
+	text-decoration:underline;
+}
+.ad{
+	position:relative;
+	right:20px;
 
 }
-.content{
-position:relative;
-top:50px;
-height:1000px;
-z-index:1;
-
-
-margin-right:303px;
-background-color:#999999;
-
-}
-.guidesHide{
-display:none;
-z-index:5;
-}
-.guidesShow{
-display:block;
-z-index:5;
-}
-
-.playersHide{
-display:none;
-}
-.playersShow{
-display:block;
+.input{
+	width:400px;
+	height:20px;
+	position:relative;
+	bottom:50px;
+	left:20px;
+	font-size:20px;
 }
 
 
 
-
-.newsHide{
-display:none;
-
+button{
+	position:relative;
+	bottom:50px;
+	left:105px;
+	font-size:;
 }
-.newsShow{
-display:block;
-}
-.mapsHide{
-display:none;
-
-
-}
-
-.mapsShow{
-display:block;
-}
-
-
-.hide{
-display:none;
-}
-
-.forecasts{
-margin-left:380px;
-}
-
