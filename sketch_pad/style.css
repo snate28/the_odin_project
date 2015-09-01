@@ -17,7 +17,7 @@
 button{
 	background-color:#33eedd;
 	position:relative;
-	left:125px;
+	
 	height:20px;
 	font-size:15px;
 }
@@ -29,5 +29,5 @@ a{
 	color:gray;
 	border-radius: 5%;
 	position:relative;
-	left:325px;
+	left:200px;
 }
