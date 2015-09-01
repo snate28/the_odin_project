@@ -1,4 +1,4 @@
-
+$(document).ready(function(){
 
 var drow =64;
 
@@ -99,6 +99,8 @@ $('.square').hover(function() { //makes the trail stop
 		} );
 };
 
+
+});
 
 
 
