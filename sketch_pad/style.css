@@ -1,1 +1,17 @@
 
+.body{
+ line-height:0;
+}
+.wrapper{
+ width:800px;
+ margin-left:auto;
+ margin-right:auto;
+}
+.square {
+ background-color:#DDDDDD;
+ float:left;
+  opacity: 1;
+}
+button{
+  background-color:red;
+}
