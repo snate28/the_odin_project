@@ -23,7 +23,7 @@ for(var i=1;i<=row*row;i++){
 var width = ($('.grid').width()) / row;
 $('.square').css({'width':width, "height":width});
 };
-
+});
 //Gets a random color for square
 function getRandomColor(input){
 	function random(){
@@ -100,7 +100,7 @@ $('.square').hover(function() { //makes the trail stop
 };
 
 
-});
+
 
 
 
